@@ -1,0 +1,8 @@
+body {
+    background-color: yellow;
+}
+
+.footer li {
+    margin-left: 50px;
+    list-style-type: none;
+}
