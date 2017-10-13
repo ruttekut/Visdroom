@@ -1,0 +1,20 @@
+body {
+    background-color: white;
+}
+
+.mainNav {
+    background-color: grey;
+    .nav-item {
+        margin-left: 90px;
+    }
+}
+
+.carousel {
+    height: 1000px;
+    .carousel-inner {
+        height: 800px;
+        .carousel-item {
+            height:600px;
+        }
+    }
+}

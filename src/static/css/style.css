@@ -1,8 +1,10 @@
-body {
-    background-color: yellow;
-}
+body { background-color: white; }
 
-.footer li {
-    margin-left: 50px;
-    list-style-type: none;
-}
+.mainNav { background-color: grey; }
+.mainNav .nav-item { margin-left: 90px; }
+
+.carousel { height: 1000px; }
+.carousel .carousel-inner { height: 800px; }
+.carousel .carousel-inner .carousel-item { height: 600px; }
+
+/*# sourceMappingURL=style.css.map */
