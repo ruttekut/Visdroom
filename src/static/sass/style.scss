@@ -1,20 +1,43 @@
 body {
-    background-color: white;
+    background-color: grey;
 }
-
+// navbar
 .mainNav {
     background-color: grey;
+    height:4em;
+    border-bottom: solid black 1px;
+    margin-bottom: 1em;
     .nav-item {
-        margin-left: 90px;
+        margin-left: 5em;
     }
 }
-
+// footer
+.copyright {
+    text-align: center;
+    background-color: grey;
+}
+.footer {
+    margin-top: 60px;
+    text-align: center;
+}
+// Slider/carousel
 .carousel {
-    height: 1000px;
-    .carousel-inner {
-        height: 800px;
-        .carousel-item {
-            height:600px;
-        }
+    img {
+        width: auto;
+        height: 500px;
+        max-height: 500px;
+    }
+}
+// Thumbnails homepage
+.thumbnails {
+    margin-top: 6em;
+    img {
+        border-radius: 30px;
+        min-height: 280px;
+    }
+    h4{
+        text-align: center;
+        margin: 1em;
+        border-bottom: 1px solid grey;
     }
 }

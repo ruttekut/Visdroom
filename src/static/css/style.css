@@ -1,10 +1,16 @@
-body { background-color: white; }
+body { background-color: grey; }
 
-.mainNav { background-color: grey; }
-.mainNav .nav-item { margin-left: 90px; }
+.mainNav { background-color: grey; height: 4em; border-bottom: solid black 1px; margin-bottom: 1em; }
+.mainNav .nav-item { margin-left: 5em; }
 
-.carousel { height: 1000px; }
-.carousel .carousel-inner { height: 800px; }
-.carousel .carousel-inner .carousel-item { height: 600px; }
+.copyright { text-align: center; background-color: grey; }
+
+.footer { margin-top: 60px; text-align: center; }
+
+.carousel img { width: auto; height: 500px; max-height: 500px; }
+
+.thumbnails { margin-top: 6em; }
+.thumbnails img { border-radius: 30px; min-height: 280px; }
+.thumbnails h4 { text-align: center; margin: 1em; border-bottom: 1px solid grey; }
 
 /*# sourceMappingURL=style.css.map */
