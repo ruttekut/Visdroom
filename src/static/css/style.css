@@ -1,16 +1,21 @@
 body { background-color: grey; }
 
 .mainNav { background-color: grey; height: 4em; border-bottom: solid black 1px; margin-bottom: 1em; }
-.mainNav .nav-item { margin-left: 5em; }
+.mainNav .nav-item { margin-left: 4em; }
+.mainNav .loginRegister { text-align: right; }
+.mainNav .loginRegister .nav-link { margin-left: 1px; color: black; }
 
-.copyright { text-align: center; background-color: grey; }
-
-.footer { margin-top: 60px; text-align: center; }
+footer .footer { border-top: 1px solid black; margin-top: 60px; text-align: center; }
+footer .footer h3 { margin-top: 1.8em; font-size: 1.5em; }
+footer .footer h5 { font-size: 1em; margin-bottom: -10px; }
+footer .footer .fa { padding: 25px; font-size: 20px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 100px; }
+footer .footer .fa:hover { opacity: 0.9; }
+footer .footer .fa-facebook { background: #3B5998; color: white; }
 
 .carousel img { width: auto; height: 500px; max-height: 500px; }
 
 .thumbnails { margin-top: 6em; }
-.thumbnails img { border-radius: 30px; min-height: 280px; }
+.thumbnails img { border-radius: 30px; min-height: 280px; background-color: grey; }
 .thumbnails h4 { text-align: center; margin: 1em; border-bottom: 1px solid grey; }
 
 /*# sourceMappingURL=style.css.map */

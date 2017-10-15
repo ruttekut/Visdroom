@@ -8,17 +8,51 @@ body {
     border-bottom: solid black 1px;
     margin-bottom: 1em;
     .nav-item {
-        margin-left: 5em;
+        margin-left: 4em;
+    }
+    .loginRegister {
+            text-align: right;
+            .nav-link {
+                margin-left: 1px;
+                color: black;
+            }
     }
 }
 // footer
-.copyright {
-    text-align: center;
-    background-color: grey;
-}
-.footer {
-    margin-top: 60px;
-    text-align: center;
+
+footer {
+    .footer {
+        border-top: 1px solid black;
+        margin-top: 60px;
+        text-align: center;
+        h3 {
+            margin-top: 1.8em;
+            font-size: 1.5em;
+        }
+        h5  {
+            font-size: 1em;
+            margin-bottom: -10px;
+        }
+        // social icons styling from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons
+        .fa {
+            padding: 25px;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 100px;
+        }
+
+        .fa:hover {
+            opacity: 0.9;
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+    }
 }
 // Slider/carousel
 .carousel {
@@ -34,6 +68,7 @@ body {
     img {
         border-radius: 30px;
         min-height: 280px;
+        background-color: grey;
     }
     h4{
         text-align: center;
