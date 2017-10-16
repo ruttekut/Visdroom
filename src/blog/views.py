@@ -9,7 +9,6 @@ from .models import Blogpost
 # Create your views here.
 # class BlogpostListview(Listview):
 class BlogListView(ListView):
-
     queryset = Blogpost.objects.all()
 
 

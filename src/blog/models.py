@@ -12,7 +12,7 @@ class Blogpost(models.Model):
     content = models.TextField()
     timestamp = models.DateTimeField(auto_now=True, auto_now_add=False)
     updated = models.DateField(auto_now=False, auto_now_add=True)
-    Images = models.ImageField(blank=True)
+    images = models.ImageField(blank=True, upload_to='blog/img')
     author = models.ForeignKey(User, null=True, blank=True)
 
     def __str__(self):

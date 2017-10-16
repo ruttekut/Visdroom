@@ -1,5 +1,6 @@
 $bgcolor: white;
-$footercolor:#595959;
+$secondarycolor:#d9d9d9;
+$footercolor: #595959;
 
 body {
     background-color: $bgcolor;
@@ -7,8 +8,7 @@ body {
 }
 // navbar
 .mainNav {
-    background-color: $bgcolor;
-    height:4em;
+    background-color: $secondarycolor;
     border-bottom: solid black 1px;
     margin-bottom: 1em;
     .nav-item {
@@ -73,5 +73,43 @@ footer {
         text-align: center;
         margin: 1em;
         border-bottom: 1px solid grey;
+    }
+    a {
+        list-style-type: none;
+    }
+}
+// Blogdetailview
+.blogdetail{
+    h1  {
+        margin-top: 50px;
+        margin-bottom:60px;
+    }
+    img {
+        margin-top: 40px;
+    }
+}
+// bloglist
+.bloglist {
+    h1 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding: 2rem;
+        border-bottom: black solid 1px;
+        background-color: $secondarycolor;
+    }
+    li {
+        list-style-type: none;
+        font-size: 20px;
+        color: grey;
+        strong {
+            color: black;
+            font-size: 10px;
+        }
+        .author {
+            font-size: 15px;
+        }
+        a {
+            color: black;
+        }
     }
 }

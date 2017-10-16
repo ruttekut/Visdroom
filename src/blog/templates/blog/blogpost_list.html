@@ -1,18 +1,31 @@
 {% extends 'base.html'%}
-
+{% load static %}
 {% block content %}
-<h1>Blogs</h1>
-<div class="container">
+
+<div class="container bloglist">
+    <h1>Blogs</h1>
     <div class="row">
 
         {% for blog in object_list %}
         <div class="col">
             <ul>
-                <li>{{blog}}</li>
+                <li>
+                    <a href="{% url 'blogdetail' blog.id%}">{{blog.title}}</a> <br>
+                </li>
+                <li class="author">
+                    {% if blog.author %}
+                        {{blog.author}}
+                    {% else %}
+                        Author not known
+                    {% endif %}
+                </li>
+                <li>
+                    <strong>{{blog.timestamp}}</strong>
+                </li>
             </ul>
-            <p>{{blog.content}}</p>
+            <img src="media/{{blog.images}}" alt="" height="200px">
         </div>
-{%endfor %}
+        {%endfor %}
     </div>
 </div>
 {% endblock%}
