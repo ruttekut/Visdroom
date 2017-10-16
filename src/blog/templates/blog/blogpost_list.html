@@ -5,9 +5,8 @@
 <div class="container bloglist">
     <h1>Blogs</h1>
     <div class="row">
-
         {% for blog in object_list %}
-        <div class="col">
+        <div class="col-md-4 columnborder">
             <ul>
                 <li>
                     <a href="{% url 'blogdetail' blog.id%}">{{blog.title}}</a> <br>

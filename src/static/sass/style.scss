@@ -1,14 +1,19 @@
-$bgcolor: white;
-$secondarycolor:#d9d9d9;
-$footercolor: #595959;
+// colors
+$bgcolor: #7E685A;
+$secondarycolor:#AFD725;
+$headercolor:#EAE7DC;
+$footercolor: #E7717D;
 
 body {
     background-color: $bgcolor;
-
+    h1 {
+        background-color: $headercolor;
+        padding:1em;
+    }
 }
 // navbar
 .mainNav {
-    background-color: $secondarycolor;
+    background-color: grey;
     border-bottom: solid black 1px;
     margin-bottom: 1em;
     .nav-item {
@@ -66,8 +71,14 @@ footer {
     margin-top: 6em;
     img {
         border-radius: 30px;
-        min-height: 280px;
-        background-color: grey;
+        max-width: 80%;
+        height: 200px;
+        display: block;
+        margin: auto;
+        background-color: $bgcolor;
+    }
+    h1{
+        padding:1em;
     }
     h4{
         text-align: center;
@@ -76,6 +87,7 @@ footer {
     }
     a {
         list-style-type: none;
+        color: black;
     }
 }
 // Blogdetailview
@@ -95,9 +107,15 @@ footer {
         margin-bottom: 1em;
         padding: 2rem;
         border-bottom: black solid 1px;
-        background-color: $secondarycolor;
     }
+
+    .columnborder {
+        padding-bottom: 3em;
+        border-bottom: 1px black solid;
+    }
+
     li {
+        margin-top: 2em;
         list-style-type: none;
         font-size: 20px;
         color: grey;
@@ -111,5 +129,8 @@ footer {
         a {
             color: black;
         }
+    }
+    img {
+        border-radius: 1em;
     }
 }

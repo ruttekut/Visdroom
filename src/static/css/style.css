@@ -1,9 +1,10 @@
-body { background-color: white; }
+body { background-color: #7E685A; }
+body h1 { background-color: #EAE7DC; padding: 1em; }
 
-.mainNav { background-color: #d9d9d9; border-bottom: solid black 1px; margin-bottom: 1em; }
+.mainNav { background-color: grey; border-bottom: solid black 1px; margin-bottom: 1em; }
 .mainNav .nav-item { margin-left: 4em; }
 
-footer .footer { border-top: 1px solid black; margin-top: 60px; text-align: center; background-color: #595959; }
+footer .footer { border-top: 1px solid black; margin-top: 60px; text-align: center; background-color: #E7717D; }
 footer .footer h3 { margin-top: 1.8em; font-size: 1.5em; }
 footer .footer h5 { font-size: 1em; margin-bottom: -10px; }
 footer .footer .fa { padding: 15px; font-size: 20px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 1px; }
@@ -14,17 +15,20 @@ footer .footer .fa-facebook { background: #3B5998; color: white; }
 .carousel img { width: auto; height: 450px; max-height: 500px; }
 
 .thumbnails { margin-top: 6em; }
-.thumbnails img { border-radius: 30px; min-height: 280px; background-color: grey; }
+.thumbnails img { border-radius: 30px; max-width: 80%; height: 200px; display: block; margin: auto; background-color: #7E685A; }
+.thumbnails h1 { padding: 1em; }
 .thumbnails h4 { text-align: center; margin: 1em; border-bottom: 1px solid grey; }
-.thumbnails a { list-style-type: none; }
+.thumbnails a { list-style-type: none; color: black; }
 
 .blogdetail h1 { margin-top: 50px; margin-bottom: 60px; }
 .blogdetail img { margin-top: 40px; }
 
-.bloglist h1 { margin-top: 2em; margin-bottom: 1em; padding: 2rem; border-bottom: black solid 1px; background-color: #d9d9d9; }
-.bloglist li { list-style-type: none; font-size: 20px; color: grey; }
+.bloglist h1 { margin-top: 2em; margin-bottom: 1em; padding: 2rem; border-bottom: black solid 1px; }
+.bloglist .columnborder { padding-bottom: 3em; border-bottom: 1px black solid; }
+.bloglist li { margin-top: 2em; list-style-type: none; font-size: 20px; color: grey; }
 .bloglist li strong { color: black; font-size: 10px; }
 .bloglist li .author { font-size: 15px; }
 .bloglist li a { color: black; }
+.bloglist img { border-radius: 1em; }
 
 /*# sourceMappingURL=style.css.map */
